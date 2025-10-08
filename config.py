@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "7556995516:AAGEVw6A1dm-eW-sOU5Ak_8xghk4Y6_
 PORT = int(environ.get("PORT", "8080"))
 MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))
-PING_INTERVAL = int(environ.get("PING_INTERVAL", "600"))  # 20 minutes
+PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 ON_HEROKU = "DYNO" in environ
 URL = environ.get("URL", "https://filetolinks-v6harman.onrender.com/")
 
